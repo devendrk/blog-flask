@@ -1,4 +1,4 @@
-This is my python(flas) practice app. 
+This is my first  Flask web app.  
 This is a basic blog where user can register, set their profile profile picture, write their blog, udpdate the blog, update the user name, password and so on.
 
 ## setting up the virtual environment.
