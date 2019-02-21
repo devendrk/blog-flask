@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Devendra Blog</title>
+
+    <link rel="stylesheet" type="text/css" href="/static/main.css">
 </head>
 <body>
     <nav>
         <ul>
-            <li class="nav-item">Home</li>
-            <li class="nav-item">Account</li>
-            <li class="nav-item">login</li>
-            <li class="nav-item">Register</li>
+            <li class="nav-item"><a href="/">Home</a></li>
+            <li class="nav-item"><a href="/login">login</a></li>
+            <li class="nav-item"><a href="/register">register</a></li>
+            <!-- <li class="nav-item"><a href="#"></a></li> -->
         </ul>
     </nav>
-    {% block content%}
-    
-    { % endblock%}
+    {% block content %}
+    {% endblock content%}
 </body>
 </html>
