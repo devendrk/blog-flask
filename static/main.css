@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('imgs/background3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#mainNavbar {
+    background-color: white;
+    opacity: 0.9;
+}
+.btn-outline-secondary {border-radius: 70px;}
+
+#intro {
+	height: 100%;
+	width: 100%;
+}
+
+#intro {
+    background: url("imgs/background3.jpg") no-repeat center center fixed;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+   
+.navbar.scrolled {
+    background: rgb(106, 204, 139);
+    transition: background 500ms;
+    opacity: 0.95;
+}
+
+.heading1 {
+    font-family: 'Montserrat', sans-serif;
+
+}

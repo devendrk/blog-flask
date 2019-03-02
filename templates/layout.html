@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Devendra Blog</title>
+    <title>The Big Project</title>
 
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../static/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark bg-light py-0 fixed-top" nav id="mainNavbar">
-            <a class="navbar-brand"><img src="imgs/logo1.png" alt="the big project logo"></a>
+            <a class="navbar-brand"><img src="static/imgs/logo1.png" alt="the big project logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -46,14 +46,7 @@
             </div>
         </nav>
     </div>
-    <!-- <nav>
-        <ul>
-            <li class="nav-item"><a href="/">Home</a></li>
-            <li class="nav-item"><a href="/login">login</a></li>
-            <li class="nav-item"><a href="/register">register</a></li>
-            <li class="nav-item"><a href="#"></a></li>
-        </ul>
-    </nav> -->
+  
     {% block content %}
     {% endblock content%}
 
