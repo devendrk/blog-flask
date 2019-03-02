@@ -27,7 +27,7 @@ we use pipenv  to setup the virtual environment.For more info about pipenv read 
 3. ```git status ``` check status ( text should be green )
 4. ``` " git commit -m "< your commit message here>" ``` saves the changes.
 5.  ``` git push -u origin <branch> ```
--  Repeat this step 1- 4  each time you want to commit. step 5 to upload your working code in git hub.
+-  Repeat this step 1- 4  each time you want to commit. step 5 to upload your working code(avoid pushing the broken code ).
 -  Goto your git hub  and send the pull request.
 
 ### reference links 
