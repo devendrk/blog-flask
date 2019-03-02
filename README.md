@@ -13,7 +13,6 @@ we use pipenv  to setup the virtual environment.For more info about pipenv read 
  
 
 - execute the run.py with ``` python run.py ``` command in terminal. type  ``` localhos:5000``` to se the changes
-- ``` pipenv install flask-wtf ``` WTForms, and Flask WTF is used to handle the registration form validation.
 
 
 # reference links 
