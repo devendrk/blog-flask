@@ -8,11 +8,12 @@ we use pipenv  to setup the virtual environment.For more info about pipenv read 
 - clone this repo
 - install pipenv ( if you do not have pipenv)
 - cd to the cloned directory
--  ```pipenv shell``` command  starts the virtual env. you can do it incase you turn off( exit ) your virtual env.
-- pipenv install --dev # installs all the depencies that are in pipfile. use this command if you are cloning this repo in your desktop.
+-  ```pipenv shell``` command  starts the virtual env. 
+- pipenv install --dev # installs all the depencies that are in pipfile. use this command if you are cloning this repo.
  
 
-- execute the run.py with ``` python run.py ``` command in terminal. type  ``` localhos:5000``` to se the changes
+- execute the run.py with ``` python run.py ``` command in terminal. 
+- type  ``` localhos:5000```  in your browser to see the changes
 
 
 # reference links 
