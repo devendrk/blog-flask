@@ -20,7 +20,7 @@ we use pipenv  to setup the virtual environment.For more info about pipenv read 
 - Now you  should be on your branch :  ```<branchname> ```
 - Start to add your code
 
-### Commit push and pull request
+### Commit, push and pull request
 1. ```git status ``` check status ( red text indicates its not stagged yet.) 
 2.  ```git add . ```  your code goes to staging area.
 3. ```git status ``` check status ( text should be green )
