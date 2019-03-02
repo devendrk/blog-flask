@@ -32,4 +32,4 @@ we use pipenv  to setup the virtual environment.For more info about pipenv read 
 ### reference links 
 
 - Learn more about jinja2 [here](https://www.fullstackpython.com/jinja2.html)
-- For hello world python follow this [tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) 
+- Flask  [tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) 
