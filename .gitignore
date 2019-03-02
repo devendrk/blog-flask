@@ -1,0 +1,8 @@
+*ipynb_checkpoints
+*.ipynb
+/__pycache__/
+venv
+*db
+migrations
+.vscode
+
