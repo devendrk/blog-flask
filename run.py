@@ -27,6 +27,9 @@ def home():
 def contact():
   return render_template('contact.html')
 
+# should we have a results route?
+# @results.route('/results (or search keyword)', methods=['GET', 'POST'])
+
 
 
 
