@@ -7,7 +7,8 @@ we use pipenv  to setup the virtual environment.For more info about pipenv read 
 - Fork the this repo ( frok button on the top right corner)
 - Now you should see it on the list of your repos. 
 - cd to your desired folder or (desktop) you want to clone.
-- In your terminal type:   ``` git clone <githublink> ```
+- on your github repo click clone or download button and copy the https: link
+- In your terminal type:   ``` git clone <copied link> ```
 - cd to the cloned directory
 - Install pipenv ( if you do not have pipenv): ``` pip install pipenv ```
 -  ```pipenv shell``` command  starts the virtual env. you can do it incase you turn off( exit ) your virtual env.
