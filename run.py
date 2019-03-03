@@ -29,7 +29,13 @@ def contact():
 
 # should we have a results route?
 # @results.route('/results (or search keyword)', methods=['GET', 'POST'])
-
+# def search():
+#     form = SearchForm()
+#     if form.validate_on_submit():
+#         search_term = form.query.data
+#         results = Foo.query.all()
+#         return render_template('results.html', form=form, results=results)
+#     return render_template('results.html', form=form)
 
 
 

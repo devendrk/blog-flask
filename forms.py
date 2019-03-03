@@ -1,6 +1,7 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField, TextAreaField, SubmitField
 from wtforms.validators import DataRequired
+from models import Jobs
 
 
 
@@ -10,8 +11,8 @@ class SearchForm(FlaskForm):
     submit = SubmitField('Seach Jobs')
 
     # fetches data from our model / database on submit
-    def FetchData():
+    def FetchData(Jobs):
         if submit:
-            Jobs.query.filter_by(search.data)
+            Jobs.query.filter_by(Jobs.data)
             return redirect('/results')
         return render_template(results.html)
