@@ -23,7 +23,7 @@ posts = [
 def home():
   return render_template('home.html', posts = posts)
 
-@contack.route('/contact')
+@app.route('/contact')
 def contact():
   return render_template('contact.html')
 

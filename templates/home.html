@@ -1,5 +1,141 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-<h1>Home</h1>
+        </nav>
+    </div>
+<div class="container-image">
+    	<div id="intro" class="view">
+                <div class="mask rgba-red-light">
+
+                <div class="mask rgba-black-strong">
+                        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+                            
+                          <div class="d-flex justify-content-center text-center mt-5">
+                            <div class="col-md-10 mt-5">
+                          
+                        <!-- Heading -->
+                        <h2 class="display-4 pt-5 mb-2 text-white font-weight-bold">No Finnish? No Problem.</h2>
+                    
+                        <!-- Divider -->
+                        <hr class="hr-light">
+                    
+                        <!-- Description -->
+                        <h4 class="white-text my-4 text-white">Find Jobs That Require No Finnish</h4>
+                        <form class="form-inline my-2 my-lg-0 justify-content-center align-items-center" id="search-form">
+                            <ul class="big-search-bar">
+                                <li>
+                                    <div class="row">
+                                <input class="form-control mr-sm-2 big-search-bar" type="search" placeholder="include words"
+                                    aria-label="the word you want">
+                                </div>
+                                </li>
+                               
+                                <li>
+                                        <div class="row mt-2">
+                                <input class="form-control mr-sm-2 big-search-bar" type="search" placeholder="exclude words"
+                                    aria-label="Search">
+                                </div>
+                                </li>
+                            
+
+                        <button type="button" class="btn btn-info search-button">Search Jobs</button>
+                    </ul>
+                </form> 
+            </div> 
+            </div>  
+        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                    </div>
+                    </div>
+
+                        
+                        <!--Main layout-->
+                        <div class="container-grey">
+                    
+                        <div class="row text-center">
+                        
+                            <div class="col-md-4 mb-4 mt-3">
+                                <img src="../static/imgs/search.png" alt="search icon">
+
+                                <h4 class="my-4">Search</h4>
+                                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+                                    assumenda deleniti hic.</p>
+                            </div>
+                        
+                            <div class="col-md-4 mb-4 mt-3">
+                                    <img src="../static/imgs/filter.png" alt="filter icon">
+                                 <h4 class="my-4">Filter</h4>
+                                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+                                    assumenda deleniti hic.</p>
+                            </div>
+                            <!--Grid column-->
+                        
+                            <!--Grid column-->
+                            <div class="col-md-4 mb-4 mt-3">§
+                                    <img src="../static/imgs/language.png" alt="language icon">
+
+                                <h4 class="my-4">No Finnish</h4>
+                                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+                                    assumenda deleniti hic.</p>
+                            </div>
+                            <!--Grid column-->
+                        
+                        </div>
+                        <!--Grid row-->
+                    </div>
+                    <div class="yellow-container">
+                        <div class="row lg12 md-8 sm-6">
+                            <div class="col mt-5 ml-5">
+                            <img src="../static/imgs/testimonial1.png" alt="testimonial 1" class="testimonial">
+                            </div>
+                            <div class="col mt-5 mr-5">
+                            <p class="testimonial-text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+                                assumenda deleniti hic."</p>
+                            
+                            </div>
+                            <div class="col mt-5">
+                                <img src="../static/imgs/testimonial2.png" alt="testimonial 2" class="testimonial">
+                            </div>
+                                <div class="col mt-5 mr-5 mb-5">
+
+                            <p class="testimonial-text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+                                assumenda deleniti hic."</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <footer class="dark-footer">    
+                        <div class="row">
+                            <div class="col mt-4 ml-5 mb-4">
+                            <img src="../static/imgs/logo-white.png" alt="footbar logo" class="white-logo">
+                        </div>
+                        </div>
+                    </footer>
+                    
 {% endblock %}
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+
+</html>
