@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+  
+}
+
+.logo   {
+    width: 70%;
+}
+
+#mainNavbar {
+    opacity: 0.9;
+}
+.navbar.scrolled {
+    background: rgb(206, 233, 110);
+    transition: background 500ms;
+    opacity: 0.95;
+}
+.btn-outline-secondary {border-radius: 70px;}
+
+#intro {
+	height: 100%;
+	width: 100%;
+}
+
+.view {
+    background: url("../static/imgs/background1.jpg")no-repeat center center;
+    width: 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 70%;
+    margin: 2em auto 2em 25% 2em;
+}
+
+.form-inline {
+    padding-top: 2%;
+}
+
+
+
+
+.heading1 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.first-header {
+    margin-top: 50%;
+}
+
+.searchbars {
+
+    align-content: center;
+    margin: 2em auto 2em 25%;
+
+}
+
+.nav-search-bar {
+    border-radius: 25px !important;
+}
+
+.nav-search-button {
+    border-radius: 25px !important;
+
+}
+.search-button {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: rgb(92, 202, 184) !important;
+    border: none !important;
+    border-radius: 25px !important;
+
+    
+}
+
+.search-button a:hover {
+    background-color: rgb(65, 73, 78) !important;
+}
+
+.big-search-bar {
+    width: 500px !important;
+    list-style-type: none;
+    
+
+}
+
+
+.container-grey {
+
+    background: rgb(221, 213, 213);
+    width: 100%;
+    background-size: cover;
+    padding: 0;
+}
+
+.container-grey img {
+    width: 20%;
+    margin-top: 10%;
+}
+
+.grey-text {
+    opacity: 0.8;
+}
+.yellow-container {
+    background: #E6F154;    
+}
+
+.testimonial {
+    width: 55%;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+.testimonial-text {
+    opacity: 0.8;
+    margin-left: -30px;
+}
+
+.dark-footer {
+    background: #181515;
+    
+}
+
+.white-logo {
+    width: 12%;
+}
